@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#0f0f0f;
+    color:white;
+    font-family: Arial, sans-serif;
+}
+.h2{
+    align-items:center;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+}
+
+#texts{
+    width: 30%;
+    height: 60px;
+    margin: 20px auto;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#keyboard{
+    background-color: rgb(250, 249, 249);
+    width: 1150px;
+    height: 70vh;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 5px;
+    border: 5rem;
+}
+
+#keyboard button{
+    background: #333;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#keyboard button:hover{
+    background: #555;
+    transform: scale(1.05);
+}
+
+#keyboard button:active{
+    background: rgb(28, 246, 9);
+    transform: scale(0.95);
+}
+
+.BACKSPACE{
+    grid-column: span 2;
+}
+.TAB{
+    grid-column: span 2;
+}
+.CAPS{
+    grid-column: span 2;
+}
+.ENTER{
+    grid-column: span 2;
+}
+.SHIFT{
+    grid-column: span 3;
+}
+.SHIFT{
+    grid-column: span 2;
+}
+.SPACE{
+    grid-column: span 7;
+}
+
+.CTRL{
+    grid-column: span 2;
+}
+
+.ALT{
+    grid-column: span 1;
+}
